@@ -7,5 +7,10 @@
 
 ## compile
 ```
-gcc betradar_demo.c -lssl
+gcc betradar_demo.c -lssl -o betradar
+```
+
+## startup
+```
+./betradar scout.betradar.com 2017 [matchid]
 ```
